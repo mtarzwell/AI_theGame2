@@ -1,0 +1,27 @@
+{
+    "asset": "b4af03064c8307f4bb139a298a65da28",
+    "fileName": "019d77f3-ffc5-7975-8088-9f133518501e.jpg",
+    "prompt": "Protagonist's computer room, grimdark steampunk aesthetic, 8-bit pixel art. Clean and organized but filled with brass analytical engines, glowing vacuum tubes, and copper wiring. A comfortable leather chair in front of a large monitor made of glass and gears. Moody lighting, dark teal and bronze palette. High contrast. 8-bit artistic style.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "e160a1832ccfdb89435d80eb6c1681ed",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
