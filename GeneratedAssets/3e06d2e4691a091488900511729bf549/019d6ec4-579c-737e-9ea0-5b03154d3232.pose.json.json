@@ -1,0 +1,12 @@
+{
+    "asset": "3e06d2e4691a091488900511729bf549",
+    "fileName": "019d6ec4-579c-737e-9ea0-5b03154d3232.pose.json",
+    "prompt": "a cute running robot",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 314873856,
+    "w3CTraceId": "3dfd8bf78c2d30de88a6d0aab848ac5d",
+    "feedback": 0,
+    "isTrimmed": false
+}

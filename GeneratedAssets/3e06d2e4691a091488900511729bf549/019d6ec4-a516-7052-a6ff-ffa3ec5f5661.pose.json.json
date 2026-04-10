@@ -1,0 +1,12 @@
+{
+    "asset": "3e06d2e4691a091488900511729bf549",
+    "fileName": "019d6ec4-a516-7052-a6ff-ffa3ec5f5661.pose.json",
+    "prompt": "a cute running robot, in a colourful 8-bit style",
+    "negativePrompt": "",
+    "model": "9e46c009-67d8-4254-a3a0-32e3168247ee",
+    "modelName": "Text to Motion",
+    "customSeed": 533374994,
+    "w3CTraceId": "f461167c2edea02854b9db3fef74f526",
+    "feedback": 0,
+    "isTrimmed": false
+}

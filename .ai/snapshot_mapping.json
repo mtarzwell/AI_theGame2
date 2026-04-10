@@ -1,0 +1,10 @@
+{
+  "mappings": [
+    {
+      "message_id": "INT_1",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "Hello world! I am excited to make a 2D narrative horror game. Can you help me do that?",
+      "snapshot_message_type": 0
+    }
+  ]
+}
