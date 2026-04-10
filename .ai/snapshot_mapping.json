@@ -5,6 +5,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "Hello world! I am excited to make a 2D narrative horror game. Can you help me do that?",
       "snapshot_message_type": 0
+    },
+    {
+      "message_id": "0a1df107-e307-42be-9a30-4cb9afee536f",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "That sounds like an amazing project! Narrative horror in 2D can be incredibly atmospheric. Since your project is currently a blank slate, I'd love to help you lay the foundation.\n\nTo get started, could you tell me a bit more about your vision?\n\n1.  **Perspective:** Will it be **top-down** (like *Ib* or *RPG Maker* games), **side-scroller** (like *Lone Survivor*), or perhaps a **first-person/point-and-click** style?\n2.  **Art Style:** Do you have a specific look in mind? (e.g., **Pixel Art**, **Hand-drawn/Stylized**, or **Minimalist**?)\n3.  **Gameplay Focus:** Will it be more about **exploration and puzzles**, or will there be **stealth/chase** mechanics?\n4.  **Dialogue System:** Since it's a narrative game, do you want a classic **text box at the bottom**, or something more integrated (like bubbles over characters)?\n\n**My suggested first steps:**\n*   **Step 1:** Create a **Player character** with basic movement.\n*   **Step 2:** Set up a **Dialogue/Narrative system** using Unity 6's UI Toolkit.\n*   **Step 3:** Establish the **Horror Atmosphere** using URP 2D lighting (darkness, flickering lights, and shadows).\n\nWhich would you like to tackle first? Or if you have a specific starting point in mind, let me know!",
+      "snapshot_message_type": 1
     }
   ]
 }
