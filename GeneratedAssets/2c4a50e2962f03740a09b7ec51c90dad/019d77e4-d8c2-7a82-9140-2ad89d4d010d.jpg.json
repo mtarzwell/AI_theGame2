@@ -1,0 +1,27 @@
+{
+    "asset": "2c4a50e2962f03740a09b7ec51c90dad",
+    "fileName": "019d77e4-d8c2-7a82-9140-2ad89d4d010d.jpg",
+    "prompt": "A grizzled steampunk inventor, full body head to toe, 8-bit pixel art, side view, wearing a heavy leather apron with brass tools, glowing mechanical eye, matching the grimdark steampunk aesthetic, transparent background. High contrast. 32x32 pixel style but 1024x1024 resolution.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "ed4bc6d438a8f777789d784ec7734b87",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

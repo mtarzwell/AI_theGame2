@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project:/Assets/UI/DialogueStyle.uss" />
+    <ui:VisualElement name="root" style="flex-grow: 1; justify-content: flex-end; padding-bottom: 50px; padding-left: 50px; padding-right: 50px;">
+        <ui:VisualElement name="dialogue-box" style="background-color: rgba(30, 30, 30, 0.9); border-width: 4px; border-color: rgb(139, 69, 19); border-radius: 10px; padding: 20px; min-height: 150px;">
+            <ui:Label name="character-name" text="Inventor" style="font-size: 24px; color: rgb(218, 165, 32); -unity-font-style: bold; margin-bottom: 10px;" />
+            <ui:Label name="dialogue-text" text="Welcome to the clockwork lab, stranger..." style="font-size: 20px; color: rgb(245, 245, 245); white-space: normal;" />
+            <ui:VisualElement name="choices-container" style="flex-direction: row; flex-wrap: wrap; margin-top: 20px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

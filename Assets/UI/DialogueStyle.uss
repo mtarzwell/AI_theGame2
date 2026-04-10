@@ -1,0 +1,27 @@
+#root {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#dialogue-box {
+    border-left-width: 8px;
+    border-right-width: 8px;
+    border-top-width: 8px;
+    border-bottom-width: 8px;
+    border-color: #8b4513; /* SaddleBrown */
+}
+
+.choice-button {
+    background-color: #3e2723;
+    color: #ffffff;
+    border-width: 2px;
+    border-color: #d4af37;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.choice-button:hover {
+    background-color: #d4af37;
+    color: #3e2723;
+}
