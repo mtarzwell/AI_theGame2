@@ -245,6 +245,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "I've identified and fixed the issue causing the blue screen! \n\nThe problem was that the **UI Toolkit system** was missing a \"Panel Settings\" file—it's a small asset that tells Unity how to render the UI on your specific screen. Without it, the UI stays invisible, and you're left looking at the camera's default blue background.\n\n### **What I’ve Fixed:**\n1.  **Created `GamePanelSettings`:** I’ve added this asset to `Assets/Settings/`.\n2.  **Linked the Title Screen:** I’ve manually wired the UI to the `TitleScreenManager` so the \"Start\" button knows what to do.\n3.  **Wired the Main Game:** I’ve also ensured the `DialogueManager` in the main game scene is properly connected to its UI.\n4.  **Camera Adjustments:** I’ve set the camera background to black instead of blue, so even if there’s a loading delay, it fits the \"horror\" aesthetic better.\n\n### **How to Try It Now:**\n1.  **Go to `Assets/Scenes/`** and double-click the **TitleScreen** scene.\n2.  **Hit the Play Button.**\n3.  You should now see the **\"THE CLOCKWORK LAB\"** title screen with the teal circles!\n4.  Click **NEW GAME** to enter Ivan’s factory and begin the story.\n\n**If you still see a blank screen:** \nTry clicking once inside the Game view window to make sure Unity has \"focus\" on your mouse. \n\nLet me know if the \"New Game\" button whisked you away to the factory! I'm standing by to hear your first impressions of the atmosphere.",
       "snapshot_message_type": 1
+    },
+    {
+      "message_id": "d620a117-ef69-4327-b0ea-60062490374a",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "Hello. When I double click on the TitleScreen I still don't see the Clockwork Lab title screen. what might be the problem this time?",
+      "snapshot_message_type": 0
     }
   ]
 }
