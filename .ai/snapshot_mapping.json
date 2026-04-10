@@ -65,6 +65,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "You’ll know the **Steam-Mind** is responding because I’ve just added a physical **Steam-Mind Console** to the protagonist's room! \n\n### **How to interact with the Steam-Mind:**\n1.  **Go to the Computer Room:** From the Lab, click on the left side of the screen to enter your sanctuary.\n2.  **Locate the Console:** You’ll see a large steampunk computer with brass gears and a glowing green screen (the **Steam-Mind Console**). \n3.  **Click to \"Query\":** Click on the screen, and the dialogue box will appear at the bottom.\n4.  **The Response:** It will currently output its current \"analysis\" regarding your protagonist's 3:00 AM question about whether mechanical hearts sleep.\n\n**Pro-tip:** I've added a few choices to that dialogue node so you can start testing out the branching paths right away!\n\n**Ready to try it?** Go ahead and hit that **Play** button. If you see any errors or if the Steam-Mind is \"too quiet,\" just let me know!",
       "snapshot_message_type": 1
+    },
+    {
+      "message_id": "f42c280e-72c7-42de-b5f5-bc080d241222",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "OK thanks. Can you explain what is the \"Steam-Mind Console\"? It sounds pretty neat. Did you come up with this idea in a unique way?",
+      "snapshot_message_type": 0
     }
   ]
 }
