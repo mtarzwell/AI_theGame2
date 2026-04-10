@@ -1,0 +1,27 @@
+{
+    "asset": "17c93268b41bf42479d23e8c3e59eab9",
+    "fileName": "019d78e9-c099-77a2-bcaf-76edb5b023b3.jpg",
+    "prompt": "Beautiful and strange circular diagrams drawn on old parchment, 8-bit pixel art, golden and teal ink, complex geometric patterns, ethereal and mysterious but not scary. 1024x1024, transparent background.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "69136d1c11a08cfdfb6e08ecd2cd1e47",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

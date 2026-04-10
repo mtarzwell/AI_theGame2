@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375ccb1662521d74480de3eeefa900fe, type: 3}
+  m_Name: ConfrontationStart
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  characterName: Ivan (Inner Monologue)
+  dialogueText: "The apartment is filled with them. Strange, beautiful circles drawn
+    on every surface\u2014paper, walls, even the floor. They aren't grotesque; they're...
+    hypnotic. Obie is hunched over his desk, his hand moving in perfect, rhythmic
+    arcs. And the Steam-Mind Console... it's pulsing with a teal light I've never
+    seen before. Elara's responses are filled with those same small, familiar circles."
+  choices: []
+  requiredFlag: 
+  requiredValue: 1
