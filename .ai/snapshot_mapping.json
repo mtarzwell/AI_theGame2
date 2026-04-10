@@ -275,6 +275,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "Ok I have two questions: 1 - should I save before clicking the TitleScreen or no? 2 - if I get red error messages can I send those to you are screenshots?",
       "snapshot_message_type": 0
+    },
+    {
+      "message_id": "6d96dfff-6533-40a9-ab6b-6a587975defb",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "Great questions!\n\n### **1. Should you save before clicking?**\n**Yes, always!** It's a good habit in Unity.\n*   **Save the Scene:** Press `Ctrl + S` (or `Cmd + S` on Mac) before you switch scenes or hit Play. This ensures that any changes I've made to the objects in the scene are written to the file on your disk.\n*   **Save the Project:** Go to `File > Save Project` occasionally. This saves assets like the \"Panel Settings\" and \"Dialogue Nodes\" that aren't technically part of the scene itself.\n\n### **2. Can you send screenshots of red errors?**\n**Absolutely!** \n*   If you see red text in the **Console**, you can take a screenshot and send it to me. \n*   Alternatively, you can just **copy and paste the text** of the error. For example: *\"NullReferenceException: Object reference not set to an instance of an object at TitleScreenManager.OnEnable...\"*\n*   Knowing the **exact line number** or **script name** in the error is incredibly helpful for me to fix it instantly.\n\n**Go ahead and try to Save and Play!** If it’s still acting up, I’m ready to analyze those error messages or screenshots to get you into the game.",
+      "snapshot_message_type": 1
     }
   ]
 }
