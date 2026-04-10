@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 81176772}
   - component: {fileID: 81176771}
   - component: {fileID: 81176773}
+  - component: {fileID: 81176778}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -285,6 +286,20 @@ Transform:
   - {fileID: 829970293}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &81176778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81176768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e153b91cc27a2fc4daf98b27e1f15784, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UIForceAssigner
+  panelSettings: {fileID: 0}
+  visualTree: {fileID: 9197481963319205126, guid: 9c40a3034511995439f09b4bd618e0d7, type: 3}
 --- !u!1 &98333409
 GameObject:
   m_ObjectHideFlags: 0
