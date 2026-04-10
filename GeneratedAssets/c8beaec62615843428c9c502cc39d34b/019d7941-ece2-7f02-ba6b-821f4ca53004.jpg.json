@@ -1,0 +1,36 @@
+{
+    "asset": "c8beaec62615843428c9c502cc39d34b",
+    "fileName": "019d7941-ece2-7f02-ba6b-821f4ca53004.jpg",
+    "prompt": "Gothic anime style 8-bit pixel art. A beautiful, spooky woman 'Elara'. She has long flowing auburn-red hair and LARGE, WARM, NATURAL BROWN EYES (explicitly not glowing, no teal color in the eyes). She wears an elegant Victorian steampunk dress with copper lace and gears. Her pale skin has glowing teal circle tattoos on her arms and neck. She is surrounded by a faint teal mist. Ethereal, haunting, and tragic. High contrast, transparent background. Full body. 1024x1024. NO BACKGROUND BOX. NO CYAN ARTIFACTS. (Reference her 'Muse' form for the dress style).",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "b32ea8844dbe513f17930a5e93b3509e",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "61054cd69bc02d54bac0961d7e248b5b"
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

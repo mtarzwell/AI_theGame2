@@ -1,0 +1,27 @@
+{
+    "asset": "792ce2ce6b7b04c469a9412d099b58d7",
+    "fileName": "019d793b-cd17-731c-9cef-0b92235e1c2c.jpg",
+    "prompt": "Gothic anime-style 8-bit pixel art. A beautiful, spooky woman 'Elara' who looks exactly like a lost wife. She has long flowing auburn-red hair and large, warm, expressive brown eyes (normal human eyes, NOT GLOWING). Her face is pale like porcelain with subtle cracks. She wears a tattered but elegant Victorian steampunk dress with copper lace and brass gears. Her pale arms are covered in many intricate glowing teal circle tattoos. She is surrounded by a faint teal mist. Ethereal, haunting, and tragic. High contrast, transparent background. Full body. 1024x1024.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "7d051a46289173897c94f1b9f22ad2c4",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

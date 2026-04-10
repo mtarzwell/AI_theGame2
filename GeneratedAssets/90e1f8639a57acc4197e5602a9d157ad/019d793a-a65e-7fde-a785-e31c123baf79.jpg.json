@@ -1,0 +1,27 @@
+{
+    "asset": "90e1f8639a57acc4197e5602a9d157ad",
+    "fileName": "019d793a-a65e-7fde-a785-e31c123baf79.jpg",
+    "prompt": "Beautiful gothic anime-style 8-bit pixel art of a spooky woman, 'Elara'. She has long, messy flowing red hair and a fragile porcelain doll face with subtle cracks. She has LARGE, WARM BROWN EYES, explicitly not glowing. She wears an elegant, tattered Victorian lace dress with brass clockwork gears (matching the Muse of the Steam-Mind). Her pale arms are covered in many intricate glowing teal circle tattoos. Ethereal and ghostly appearance, steam rising from her feet. Grimdark steampunk aesthetic, high contrast, transparent background. Full body. 1024x1024.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "90ee030fe7b0d6ab194c7b33706bde28",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

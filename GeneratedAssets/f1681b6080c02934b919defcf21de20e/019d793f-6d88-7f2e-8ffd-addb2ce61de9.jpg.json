@@ -1,0 +1,27 @@
+{
+    "asset": "f1681b6080c02934b919defcf21de20e",
+    "fileName": "019d793f-6d88-7f2e-8ffd-addb2ce61de9.jpg",
+    "prompt": "Gothic anime style 8-bit pixel art of a beautiful spooky woman. She has long flowing red hair and LARGE, WARM, NATURAL BROWN EYES (explicitly NOT glowing, no teal in eyes). She wears an elegant Victorian steampunk lace dress with brass clockwork elements. Her pale arms and neck are covered in many intricate glowing teal circle tattoos. She looks hauntingly familiar, like a lost wife. Ethereal, spooky, and tragic. High contrast, grimdark aesthetic, transparent background. Full body. 1024x1024.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "77fe3a99eb57709e3c2a80d14740fd7a",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

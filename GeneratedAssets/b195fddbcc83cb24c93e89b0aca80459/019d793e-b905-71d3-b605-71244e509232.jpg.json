@@ -1,0 +1,27 @@
+{
+    "asset": "b195fddbcc83cb24c93e89b0aca80459",
+    "fileName": "019d793e-b905-71d3-b605-71244e509232.jpg",
+    "prompt": "Gothic anime-style 8-bit pixel art. A beautiful, spooky woman 'Elara' with long flowing red hair and large, warm, DARK BROWN EYES (normal human eyes, explicitly not glowing). She wears an elegant Victorian steampunk dress with copper lace and gears. Her pale arms are covered in many intricate glowing teal circle tattoos. Ethereal, haunting, and tragic. High contrast, transparent background. Full body. 1024x1024. No background artifacts. (Note: eyes must be dark brown, not teal).",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "8d84010d5b432cb1c5b869f4bb821b13",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
