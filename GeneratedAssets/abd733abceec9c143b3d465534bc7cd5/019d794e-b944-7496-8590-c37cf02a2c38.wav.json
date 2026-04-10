@@ -1,0 +1,14 @@
+{
+    "asset": "abd733abceec9c143b3d465534bc7cd5",
+    "fileName": "019d794e-b944-7496-8590-c37cf02a2c38.wav",
+    "prompt": "Atmospheric, moody steampunk factory ambience. Low-frequency rhythmic mechanical hums, soft steam wisps, gentle clockwork clicks. Calming and dark. No sharp or chaotic noises. 80bpm.",
+    "negativePrompt": "",
+    "model": "7df9b85a-1695-49f7-89bf-988208d5a3bc",
+    "modelName": "Meta MusicGen",
+    "customSeed": -1,
+    "w3CTraceId": "787aa62d2b6882696f8cfafd8ef41490",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

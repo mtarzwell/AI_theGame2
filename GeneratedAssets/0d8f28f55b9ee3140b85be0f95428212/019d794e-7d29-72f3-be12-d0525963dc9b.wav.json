@@ -1,0 +1,14 @@
+{
+    "asset": "0d8f28f55b9ee3140b85be0f95428212",
+    "fileName": "019d794e-7d29-72f3-be12-d0525963dc9b.wav",
+    "prompt": "Ethereal, calming spooky drone for a quiet apartment. Soft teal-vibe hum, distant mechanical whirring, mysterious and peaceful. No high-pitched or sudden sounds. Gentle and atmospheric.",
+    "negativePrompt": "",
+    "model": "7df9b85a-1695-49f7-89bf-988208d5a3bc",
+    "modelName": "Meta MusicGen",
+    "customSeed": -1,
+    "w3CTraceId": "93ebd0ab155dda507ecb0059fdfc4e0b",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false
+}

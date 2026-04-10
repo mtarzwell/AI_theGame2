@@ -1,0 +1,14 @@
+{
+    "asset": "5c40d85b16932c14d99cd21a30132972",
+    "fileName": "019d794d-f31b-753b-bb13-29a12bde71dc.wav",
+    "prompt": "Soft, single mechanical click, brass switch sound, steampunk style. Calming and subtle.",
+    "negativePrompt": "",
+    "model": "5de0686a-fb27-40e5-9df0-28ae810d70ca",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "58bb165efa671c60ab09cb0855ddac35",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false
+}

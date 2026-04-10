@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project:/Assets/UI/TitleStyle.uss" />
+    <ui:VisualElement name="root" style="flex-grow: 1; justify-content: center; align-items: center; background-image: url('project:/Assets/Sprites/TitleScreen_BG.png'); -unity-background-scale-mode: scale-and-crop;">
+        <ui:VisualElement name="main-menu" style="background-color: rgba(30, 30, 30, 0.7); padding: 50px; border-width: 4px; border-color: #d4af37; border-radius: 10px;">
+            <ui:Label name="title" text="THE CLOCKWORK LAB" style="font-size: 60px; color: #d4af37; -unity-font-style: bold; margin-bottom: 50px;" />
+            <ui:Button name="start-button" text="NEW GAME" class="menu-button" />
+            <ui:Button name="quit-button" text="QUIT" class="menu-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
