@@ -47,6 +47,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "I've successfully created the second room and your protagonist!\n\n### **What's New in Your Project:**\n\n1.  **The Protagonist's Sanctuary:**\n    *   **Background:** A clean but gear-filled \"Computer Room\" (`Assets/Sprites/Background_ComputerRoom.png`). It features analytical engines and glowing vacuum tubes, fitting the \"high-tech steampunk\" vibe.\n    *   **The Protagonist:** A 30-year-old character who looks visibly overworked with dark circles under their eyes and messy hair (`Assets/Sprites/Protagonist.png`). They have a shy, quiet demeanor that matches your description.\n    *   **Atmosphere:** I've added a **cool teal tech-glow** to this room to contrast with the warm copper lights of the Lab.\n\n2.  **Room Navigation System:**\n    *   **Branched Locations:** The game now has two distinct \"Rooms\" (Lab and Computer Room).\n    *   **Interactive Doors:** I've placed interactive triggers (doors) in both rooms. \n    *   **How to travel:** Click on the far left side of either room to \"walk\" to the other location. The camera will smoothly transition to the new view.\n\n3.  **Expanded Narrative:**\n    *   The protagonist now has their own dialogue. If you click on them in their room, they’ll mutter about 3:00 AM queries and \"Steam-Minds\" that don't sleep.\n\n### **How to Explore:**\n1.  **Enter Play Mode.**\n2.  **Interact with the Protagonist:** Click on them to hear their internal monologue.\n3.  **Move Between Rooms:** Look for the \"Door\" triggers on the left side of the screen. Clicking them will teleport the camera between the Lab and the Computer Room.\n\n**Would you like to continue building out the \"Decision Tree\" system now, perhaps by adding some \"Impact Flags\" so the game remembers your choices?** Or would you like to add more \"Steam-Mind\" AI characters to the computer room?",
       "snapshot_message_type": 1
+    },
+    {
+      "message_id": "5707e0d7-1dc6-46ad-ac74-84793411403f",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "OK I will like to enter play mode. If I close this window, will I lose all our notes?",
+      "snapshot_message_type": 0
     }
   ]
 }
