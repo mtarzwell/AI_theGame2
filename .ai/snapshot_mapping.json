@@ -209,6 +209,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "Ok great summary. What are the next steps?",
       "snapshot_message_type": 0
+    },
+    {
+      "message_id": "INT_5",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "Oh no, are you stuck?",
+      "snapshot_message_type": 0
     }
   ]
 }
