@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class AudioManager : MonoBehaviour
@@ -20,8 +21,39 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(this);
         }
+    }
+
+    void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        if (Instance != this) return;
+        if (!scene.IsValid() || string.IsNullOrEmpty(scene.name)) return;
+        if (scene.name != "SampleScene") return;
+
+        StopAllCoroutines();
+        labAmbience = null;
+        apartmentAmbience = null;
+
+        var labGo = GameObject.Find("Lab Ambience");
+        if (labGo != null) labAmbience = labGo.GetComponent<AudioSource>();
+        var aptGo = GameObject.Find("Apartment Ambience");
+        if (aptGo != null) apartmentAmbience = aptGo.GetComponent<AudioSource>();
+
+        if (labAmbience != null && apartmentAmbience != null)
+            SwitchToApartment();
+        else if (apartmentAmbience != null && apartmentAmbience.volume < 0.01f)
+            StartCoroutine(FadeIn(apartmentAmbience));
     }
 
     public void PlayClick()
@@ -44,9 +76,12 @@ public class AudioManager : MonoBehaviour
     private IEnumerator FadeIn(AudioSource source)
     {
         if (source == null) yield break;
-        source.Play();
-        float startVol = source.volume;
-        while (source.volume < 0.5f)
+        source.enabled = true;
+        if (source.gameObject != null && !source.gameObject.activeSelf)
+            source.gameObject.SetActive(true);
+        if (!source.isPlaying)
+            source.Play();
+        while (source != null && source.volume < 0.5f)
         {
             source.volume += Time.deltaTime / fadeTime;
             yield return null;
@@ -56,11 +91,12 @@ public class AudioManager : MonoBehaviour
     private IEnumerator FadeOut(AudioSource source)
     {
         if (source == null) yield break;
-        while (source.volume > 0)
+        while (source != null && source.volume > 0)
         {
             source.volume -= Time.deltaTime / fadeTime;
             yield return null;
         }
-        source.Stop();
+        if (source != null)
+            source.Stop();
     }
 }

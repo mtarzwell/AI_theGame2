@@ -22,13 +22,13 @@ public class MeltdownEffect : MonoBehaviour
         while (_isMeltdownActive)
         {
             float wait = Random.Range(0.05f, 0.2f);
-            
-            // Flicker Teal
-            tealLight.intensity = Random.Range(1f, 4f);
-            // Flicker Red
-            redLight.intensity = Random.Range(0.5f, 3f);
-            // Dim Global
-            if (globalLight != null) globalLight.intensity = Random.Range(0.1f, 0.3f);
+
+            if (tealLight != null)
+                tealLight.intensity = Random.Range(1f, 4f);
+            if (redLight != null)
+                redLight.intensity = Random.Range(0.5f, 3f);
+            if (globalLight != null)
+                globalLight.intensity = Random.Range(0.1f, 0.3f);
 
             yield return new WaitForSeconds(wait);
         }
@@ -37,8 +37,8 @@ public class MeltdownEffect : MonoBehaviour
     public void StopMeltdown()
     {
         _isMeltdownActive = false;
-        tealLight.intensity = 1f;
-        redLight.intensity = 0f;
+        if (tealLight != null) tealLight.intensity = 1f;
+        if (redLight != null) redLight.intensity = 0f;
         if (globalLight != null) globalLight.intensity = 1f;
     }
 }
