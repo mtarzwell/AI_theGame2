@@ -53,6 +53,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "OK I will like to enter play mode. If I close this window, will I lose all our notes?",
       "snapshot_message_type": 0
+    },
+    {
+      "message_id": "fa4499b4-8b3e-4bb2-b4ae-9287cab70d67",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "You won't lose your project! Everything we've built—the **scripts**, **sprites**, **scene setup**, and **dialogue assets**—is saved directly into your Unity project folders (like `Assets/Scripts` and `Assets/Sprites`). \n\nHowever, whether you lose the \"notes\" in this chat window depends on the platform you're using. To be safe, here is how to proceed:\n\n### 1. **Enter Play Mode**\nJust click the **Play button (the triangle icon)** at the top center of your Unity Editor. \n*   **To move between rooms:** Click the far left side of the screen (the \"Door\" triggers).\n*   **To talk:** Click on the **Inventor** in the Lab or the **Protagonist** in the Computer Room.\n\n### 2. **Don't Lose Our \"Notes\"**\nIf you're worried about losing the instructions I've given you:\n*   **Keep the window open:** You can usually leave this assistant window open while you're in Play Mode.\n*   **Copy/Paste:** If you plan on closing this chat session, feel free to copy any specific instructions or code snippets into a text file (like a `README.txt`) inside your Unity `Assets` folder.\n*   **I'm still here:** Even if you restart the session, I can analyze your project again using my tools and pick up right where we left off!\n\n### **A Quick Tip for Play Mode:**\nMake sure you have the **Game View** visible. If you don't see anything, ensure your **Main Camera** is set to \"Orthographic\" (it should be, based on my setup).\n\n**Ready to try it out?** Click that Play button and let me know if the \"Steam-Mind\" responds as expected! I'll be here if you run into any issues or want to add more to the story!",
+      "snapshot_message_type": 1
     }
   ]
 }
