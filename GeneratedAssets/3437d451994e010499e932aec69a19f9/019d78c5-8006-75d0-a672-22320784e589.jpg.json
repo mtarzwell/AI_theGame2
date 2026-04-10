@@ -1,0 +1,27 @@
+{
+    "asset": "3437d451994e010499e932aec69a19f9",
+    "fileName": "019d78c5-8006-75d0-a672-22320784e589.jpg",
+    "prompt": "Uncanny female steampunk AI entity, \"The Muse of the Steam-Mind\". Porcelain doll face with subtle cracks, glowing teal eyes, visible brass clockwork gears beneath translucent skin. Long flowing hair made of copper wires and steam. Ethereal, ghostly projection look, flickering scanlines. Grimdark steampunk aesthetic, 8-bit pixel art style, high contrast, transparent background. Full body head to toe, front view. 1024x1024 resolution.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "3fcfee4ede9134e27f51e975526a7e25",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
