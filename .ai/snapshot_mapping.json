@@ -29,6 +29,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "I've set up the core foundation for your 2D narrative horror game, \"The Clockwork Lab.\" \n\nHere is what I've created:\n\n### 1. **Visual Atmosphere & Characters**\n*   **Background:** A dark, moody steampunk laboratory (`Assets/Sprites/Background_Lab.png`) in a grimdark 8-bit style.\n*   **Inventor NPC:** A grizzled steampunk character with a mechanical eye (`Assets/Sprites/Inventor.png`).\n*   **Lighting:** A flickering 2D point light that casts a warm, copper glow over the scene, enhancing the horror vibe.\n\n### 2. **Narrative & Dialogue System**\n*   **Decision Tree:** I've implemented a custom `DialogueData` system (`ScriptableObject`) that allows you to create branching paths.\n*   **Dialogue UI:** A UI Toolkit-based system (`Assets/UI/DialogueLayout.uxml`) with a dark, brass-bordered box and golden-themed choice buttons.\n*   **Sample Story:** I've wired up a basic interaction where the Inventor warns you about rising steam pressure, giving you choices like \"What can I do?\" or \"Not my problem,\" each leading to different outcomes.\n\n### 3. **Point-and-Click Mechanics**\n*   **Input System:** A custom `GameInputs` asset (`Assets/Settings/GameInputs.inputactions`) is configured for left-click interaction.\n*   **Interactivity:** A `PointAndClickManager` script handles clicking on NPCs or objects. You can click on the Inventor to trigger the dialogue.\n\n### **How to play/test:**\n1.  **Select the \"Managers\" object** in the scene to see the `DialogueManager` and `PointAndClickManager`.\n2.  **Click on the Inventor NPC** in the Game view to start the conversation.\n3.  **Navigate choices** to see the story branch.\n\n**Next steps:**\n*   **Sound Effects:** We can generate some steam hisses or mechanical clicking sounds.\n*   **Puzzles:** We could implement a simple steampunk-themed puzzle to fix the \"clockwork heart.\"\n*   **More Characters:** I can generate more NPCs or different laboratory rooms.\n\nWhat would you like to build next?",
       "snapshot_message_type": 1
+    },
+    {
+      "message_id": "787a9020-8715-4d34-95d6-1aded49858f6",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "I would like to get started with the Decision Tree first. How can I start editing that? What is the best way to get my story into the game?",
+      "snapshot_message_type": 0
     }
   ]
 }
