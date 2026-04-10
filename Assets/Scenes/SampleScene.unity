@@ -298,7 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e153b91cc27a2fc4daf98b27e1f15784, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::UIForceAssigner
-  panelSettings: {fileID: 0}
+  panelSettings: {fileID: 11400000, guid: db50e6e992543f446ba79be4739a4ea7, type: 2}
   visualTree: {fileID: 9197481963319205126, guid: 9c40a3034511995439f09b4bd618e0d7, type: 3}
 --- !u!1 &98333409
 GameObject:
@@ -379,7 +379,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -50
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2671132267497815555, guid: b4af03064c8307f4bb139a298a65da28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -437,7 +437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1414c930b9c08914d9e53657c0343523, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NPCInteraction
-  dialogue: {fileID: 0}
+  dialogue: {fileID: 11400000, guid: eb4aba2f625136f43bbddb4898d2a241, type: 2}
   dialogueManager: {fileID: 81176770}
 --- !u!61 &184695344
 BoxCollider2D:
@@ -1550,7 +1550,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -50
   m_MaskInteraction: 0
   m_Sprite: {fileID: 8187373093425151943, guid: e0ea59546b76aca4cae57f1065498ddb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

@@ -17,6 +17,16 @@ MonoBehaviour:
     double. You could've just asked for a raise, you know. Or a new desk. But no,
     you go full 'renegade' with a brass wrench and start a cult of circles. Seriously,
     what's with the wallpaper?
-  choices: []
+  choices:
+  - text: Continue
+    nextDialogue: {fileID: 11400000, guid: dfed672a0077af745bd45ad41e79406f, type: 2}
+    flagToSet: 
+    flagValue: 1
+    statToChange: 
+    statDelta: 0
+    requiredFlag: 
+    requiredValue: 1
+    triggerMeltdown: 0
+    switchToObie: 0
   requiredFlag: 
   requiredValue: 1

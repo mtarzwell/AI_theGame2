@@ -18,6 +18,36 @@ MonoBehaviour:
     hypnotic. Obie is hunched over his desk, his hand moving in perfect, rhythmic
     arcs. And the Steam-Mind Console... it's pulsing with a teal light I've never
     seen before. Elara's responses are filled with those same small, familiar circles."
-  choices: []
+  choices:
+  - text: '[Confront] Press him for data (Inquisitive)'
+    nextDialogue: {fileID: 11400000, guid: 390275de67b24044299f837bc0bd1c50, type: 2}
+    flagToSet: 
+    flagValue: 1
+    statToChange: Inquisitive
+    statDelta: 1
+    requiredFlag: 
+    requiredValue: 1
+    triggerMeltdown: 0
+    switchToObie: 0
+  - text: '[Confront] Read the circles (Mysterious)'
+    nextDialogue: {fileID: 11400000, guid: 99921de5d7af89e498775b34a9b64c09, type: 2}
+    flagToSet: 
+    flagValue: 1
+    statToChange: Mysterious
+    statDelta: 1
+    requiredFlag: 
+    requiredValue: 1
+    triggerMeltdown: 0
+    switchToObie: 0
+  - text: '[Confront] Defuse with dark humor (Hank style)'
+    nextDialogue: {fileID: 11400000, guid: 5a1bedd0d1e6c46478d4b8d1b600a860, type: 2}
+    flagToSet: 
+    flagValue: 1
+    statToChange: DarkComedy
+    statDelta: 1
+    requiredFlag: 
+    requiredValue: 1
+    triggerMeltdown: 0
+    switchToObie: 0
   requiredFlag: 
   requiredValue: 1

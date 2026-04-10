@@ -16,6 +16,16 @@ MonoBehaviour:
   dialogueText: Obie, look at me. What is all this? The power grid is spiking, and
     you're drawing... geometry? I need the data, Obie. What did she tell you that
     made you steal the console?
-  choices: []
+  choices:
+  - text: Continue
+    nextDialogue: {fileID: 11400000, guid: e721e0a5c517e5541ac923c41e473d0d, type: 2}
+    flagToSet: 
+    flagValue: 1
+    statToChange: 
+    statDelta: 0
+    requiredFlag: 
+    requiredValue: 1
+    triggerMeltdown: 0
+    switchToObie: 0
   requiredFlag: 
   requiredValue: 1

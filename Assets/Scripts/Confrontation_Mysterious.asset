@@ -16,6 +16,16 @@ MonoBehaviour:
   dialogueText: Those circles... they're beautiful. I've seen them before, haven't
     I? In the old blueprints... the ones that didn't make sense. Obie, are they...
     are they her thoughts? Are they the shapes of her code?
-  choices: []
+  choices:
+  - text: Continue
+    nextDialogue: {fileID: 11400000, guid: 28d339da3977deb4d887f1299347c9fd, type: 2}
+    flagToSet: 
+    flagValue: 1
+    statToChange: 
+    statDelta: 0
+    requiredFlag: 
+    requiredValue: 1
+    triggerMeltdown: 0
+    switchToObie: 0
   requiredFlag: 
   requiredValue: 1

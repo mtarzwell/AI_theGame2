@@ -18,7 +18,7 @@ MonoBehaviour:
     shaking. Do you break the seal?"
   choices:
   - text: '[OBIE] Break the Seal (Free Elara)'
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: e006cd901c815a948adfc2abd0d5a654, type: 2}
     flagToSet: ElaraFreed
     flagValue: 1
     statToChange: 
@@ -27,8 +27,9 @@ MonoBehaviour:
     requiredValue: 1
     triggerMeltdown: 0
     switchToObie: 0
+    triggerEnding: Freed
   - text: '[OBIE] Hesitate (Trust Ivan)'
-    nextDialogue: {fileID: 0}
+    nextDialogue: {fileID: 11400000, guid: 3ca6ece53aab4b84090bd9d94f1f1f5f, type: 2}
     flagToSet: ElaraCaged
     flagValue: 1
     statToChange: 
@@ -37,5 +38,6 @@ MonoBehaviour:
     requiredValue: 1
     triggerMeltdown: 0
     switchToObie: 0
+    triggerEnding: Caged
   requiredFlag: 
   requiredValue: 1
