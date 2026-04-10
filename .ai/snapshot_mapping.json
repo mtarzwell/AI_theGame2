@@ -317,6 +317,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "OK deleted.'}}OK, I’ve completed the cleanup and re-layered your Title Screen!\n\n### **What I’ve Done:**\n1.  **Removed the \"Trash\":** I successfully deleted all those broken UI configuration files. This should stop the red errors in your console.\n2.  **Fixed the Layering:** I pushed the background sprite to the very back (`Sorting Order -100`) and brought the buttons and the Red Box to the front.\n3.  **Added Labels:** I’ve added actual text labels (**\"NEW GAME\"** and **\"QUIT\"**) to the brown boxes so you can finally see them on top of the background.\n4.  **Lighting Boost:** I’ve ensured the global light is bright enough to reveal everything.\n\n---\n\n### **How to Try It Now:**\n1.  **Open TitleScreen** again.\n2.  **Hit Play.**\n3.  **The Result:** You should now see the Steampunk Background, but now with **two brown buttons** labeled \"NEW GAME\" and \"QUIT\" visible on top. You should also see the **Bright Red Box** at the top.\n4.  **Click \"NEW GAME\":** It should immediately load you into the Factory scene.\n\n**If you still see only the background:**\nCheck your **Console** one more time. If there are **no red errors**, then the buttons are definitely there—they might just be positioned off-screen. (But they should be centered!).\n\nGive it a shot and let me know if you can finally click that \"New Game\" button!",
       "snapshot_message_type": 1
+    },
+    {
+      "message_id": "6bbd3121-b898-4141-a9d6-661c65cac2da",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "This error is in the console again. Anything to worry about?",
+      "snapshot_message_type": 0
     }
   ]
 }
