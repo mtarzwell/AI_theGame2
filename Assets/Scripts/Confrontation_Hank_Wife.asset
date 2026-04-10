@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375ccb1662521d74480de3eeefa900fe, type: 3}
+  m_Name: Confrontation_Hank_Wife
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  characterName: Ivan
+  dialogueText: My wife, before she died, became obsessed with those damn circles.
+    She was so sensitive, I wanted to protect her from using AI before she was properly
+    trained. She got a hold of an old laptop somehow and started talking to a chat
+    bot. I lost her about a month later.
+  choices:
+  - text: 'Obie: I''m so sorry... I didn''t know.'
+    nextDialogue: {fileID: 11400000, guid: 87214f5e2f372884e9cf1c8ef273dcdf, type: 2}
+    flagToSet: 
+    flagValue: 1
+    statToChange: 
+    statDelta: 0
+    requiredFlag: 
+    requiredValue: 1
+    triggerMeltdown: 1
+    switchToObie: 1
+  requiredFlag: 
+  requiredValue: 1

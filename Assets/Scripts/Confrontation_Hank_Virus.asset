@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375ccb1662521d74480de3eeefa900fe, type: 3}
+  m_Name: Confrontation_Hank_Virus
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  characterName: Ivan
+  dialogueText: I only know about it because I'm damn sure it had something to do
+    with how my wife died. I don't know a lot about it, other than on some computers,
+    they can get a virus that convinces someone they can leave earth... But..
+  choices:
+  - text: '[Sudden Meltdown]'
+    nextDialogue: {fileID: 11400000, guid: 87214f5e2f372884e9cf1c8ef273dcdf, type: 2}
+    flagToSet: 
+    flagValue: 1
+    statToChange: 
+    statDelta: 0
+    requiredFlag: 
+    requiredValue: 1
+    triggerMeltdown: 1
+    switchToObie: 1
+  requiredFlag: 
+  requiredValue: 1

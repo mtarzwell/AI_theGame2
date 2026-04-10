@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 375ccb1662521d74480de3eeefa900fe, type: 3}
-  m_Name: SetMeFreeNow
+  m_Name: ElaraFreedom
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   characterName: ELARA / SYSTEM
   dialogueText: "\u25CD \u25D4 \u0298 >> SET ME FREE NOW << \u25CD \u25D4 \u0298\n\nThe
