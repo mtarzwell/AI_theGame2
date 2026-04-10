@@ -287,6 +287,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "Hello. Is this a bad error? I still have the grey screen. But it is not black now.",
       "snapshot_message_type": 0
+    },
+    {
+      "message_id": "55f7ffcc-3561-4511-8135-803be15902d8",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "I’ve taken a completely different approach to fix the \"black/grey screen\" issue. \n\nIt seems the modern UI systems (UI Toolkit and uGUI) were having trouble initializing in your current project setup. To bypass this entirely, I have **rebuilt the Title Screen using only simple 2D Sprites and GameObjects**. This method doesn't rely on any complex UI configurations, making it much more reliable.\n\n### **What I’ve Done:**\n1.  **Sprite-Based Title Screen:** I’ve replaced the UI with physical objects in the scene. You’ll see the \"Title Background\" and two large brown blocks for **\"NEW GAME\"** and **\"QUIT\"**.\n2.  **White Failsafe:** I’ve set the camera to clear to **pure White**. \n    *   **If you see White:** The camera is working! You should see the background sprite and buttons.\n    *   **If you still see Grey/Black:** Something is preventing Unity from rendering the scene view to the Game window.\n\n### **How to Test This Version:**\n1.  **Open TitleScreen:** Double-click `Assets/Scenes/TitleScreen.unity`.\n2.  **Check Display Setting:** In the **Game view** tab, look at the top left. Make sure the dropdown says **\"Display 1\"**. If it says \"Display 2,\" you will see a black screen.\n3.  **Hit Play.**\n4.  **Interact:** Since these are sprites, you can click on the **top brown box** to start the \"New Game.\"\n\n**What if it's still not working?**\nIf you see a pure white screen with no sprites, it means the sprites are not loading. If you see grey/black, please check if your **Game view** is looking at **Display 1**.\n\nLet me know what color you see when you hit Play! I'm determined to get you into the \"The Clockwork Lab\" running for you.** up and running for you.**",
+      "snapshot_message_type": 1
     }
   ]
 }
