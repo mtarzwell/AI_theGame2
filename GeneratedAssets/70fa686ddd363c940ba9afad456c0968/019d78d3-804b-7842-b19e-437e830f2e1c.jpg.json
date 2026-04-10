@@ -1,0 +1,27 @@
+{
+    "asset": "70fa686ddd363c940ba9afad456c0968",
+    "fileName": "019d78d3-804b-7842-b19e-437e830f2e1c.jpg",
+    "prompt": "Old ornate brass key, 8-bit pixel art, glowing slightly, steampunk style, high contrast, transparent background. 1024x1024.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "3129ca8477fc0e060d8381624201a425",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
