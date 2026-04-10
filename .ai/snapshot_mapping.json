@@ -35,6 +35,12 @@
       "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
       "content": "I would like to get started with the Decision Tree first. How can I start editing that? What is the best way to get my story into the game?",
       "snapshot_message_type": 0
+    },
+    {
+      "message_id": "b19e97d5-cd77-4b72-826d-e03e6ff47cdb",
+      "conversation_id": "cd88c75b-4e76-4f10-87f3-a4c080c03888",
+      "content": "To get your story into the game efficiently, I recommend using a **ScriptableObject-based system**. I’ve already set up the foundation for this, which allows you to create your story directly in the Unity Editor without writing code.\n\nHere is the best way to build out your \"Detroit: Become Human\" style branching paths:\n\n### 1. How to Create and Link Your Story\nCurrently, you can create new story nodes by:\n1.  **Right-click** in your `Assets/Scripts` (or a new `Assets/Story` folder).\n2.  Select **Create > HorrorGame > Dialogue**.\n3.  Name the asset (e.g., `Lab_Entry_01`).\n4.  In the **Inspector**, type the character's name, their dialogue, and add \"Choices.\"\n5.  **The Magic Step:** Drag another `DialogueData` asset into the \"Next Dialogue\" slot of a choice. This links them together into a branch.\n\n---\n\n### 2. Pro-Tip: Adding \"Impact\" (Game States)\nFor a game where \"decisions really impact the game,\" we need a way for the game to remember what you did. I recommend adding a **Game State Manager**. \n\n**Would you like me to implement a \"Flag System\"?**\nThis would allow you to:\n*   **Set a Flag:** e.g., Choice: \"Steal the brass key\" -> Sets `HasKey = true`.\n*   **Check a Flag:** e.g., A future dialogue node only appears *if* `HasKey` is `true`.\n\n---\n\n### 3. Visualizing the Tree\nAs your story grows, clicking through individual files can get confusing. I can build a **Visual Dialogue Editor** for you. It would look like a node-based graph where you can see all your branches and how they connect, similar to professional narrative tools.\n\n**Which would you like to do next?**\n1.  **Upgrade the script** to support \"Flags\" (Impact System).\n2.  **Build a Visual Editor Window** to manage the story more easily.\n3.  **Create more story content** (e.g., a second room and a new character).\n\nI'm ready to help with whichever approach sounds best!",
+      "snapshot_message_type": 1
     }
   ]
 }
