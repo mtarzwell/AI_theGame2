@@ -26,6 +26,7 @@ public class DialogueManager : MonoBehaviour
     }
 
     public MeltdownEffect meltdownController;
+    public EndingManager endingManager;
 
     public void DisplayDialogue(DialogueData data)
     {
@@ -83,6 +84,10 @@ public class DialogueManager : MonoBehaviour
                 if (choice.switchToObie)
                 {
                     GameStateManager.Instance.SetFlag("IsPlayingAsObie", true);
+                }
+                if (!string.IsNullOrEmpty(choice.triggerEnding) && endingManager != null)
+                {
+                    endingManager.ShowEnding(choice.triggerEnding);
                 }
 
                 DisplayDialogue(choice.nextDialogue);

@@ -34,4 +34,5 @@ public class Choice
     // Narrative Logic
     public bool triggerMeltdown;
     public bool switchToObie;
+    public string triggerEnding; // "Freed" or "Caged"
 }
