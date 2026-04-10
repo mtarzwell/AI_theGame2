@@ -1,0 +1,27 @@
+{
+    "asset": "1beef632f4d58694f8f74fdc9b8f90bb",
+    "fileName": "019d792f-ab14-7a35-ac64-7b235fd4819a.jpg",
+    "prompt": "Beautiful uncanny female steampunk AI entity made flesh, 'Elara'. Anime-inspired 8-bit pixel art style, large glowing teal eyes, fragile porcelain doll face with subtle cracks. She wears a flowing, ethereal Victorian steampunk dress with copper lace. Her hair is long, flowing copper wires and rising steam. Spooky and haunting presence, glowing teal circle tattoos on her skin. Grimdark steampunk aesthetic, high contrast, transparent background. Full body, front view. 1024x1024.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "3738c89c949139d0120c5764a7b572b0",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

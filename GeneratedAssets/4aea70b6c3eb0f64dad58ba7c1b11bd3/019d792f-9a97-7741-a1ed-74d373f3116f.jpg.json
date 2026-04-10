@@ -1,0 +1,27 @@
+{
+    "asset": "4aea70b6c3eb0f64dad58ba7c1b11bd3",
+    "fileName": "019d792f-9a97-7741-a1ed-74d373f3116f.jpg",
+    "prompt": "Ethereal female steampunk AI entity manifesting as a real person, 'Elara'. Soft anime pixel art style, ghostly and spooky vibe. She has glowing teal eyes and a cracked porcelain face. Wearing a long, tattered steampunk dress with brass clockwork details. Her hair is a mess of copper wire and white steam. Glowing teal circles on her arms and face. Fragile and mysterious, not a fighter. Grimdark aesthetic, transparent background. Full body. 1024x1024.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "7592d41e2997dfb359c7f86283c99c6d",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
