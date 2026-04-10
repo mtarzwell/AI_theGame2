@@ -30,4 +30,8 @@ public class Choice
     // Requirement
     public string requiredFlag;
     public bool requiredValue = true;
+
+    // Narrative Logic
+    public bool triggerMeltdown;
+    public bool switchToObie;
 }

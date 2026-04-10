@@ -25,6 +25,8 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    public MeltdownEffect meltdownController;
+
     public void DisplayDialogue(DialogueData data)
     {
         if (data == null)
@@ -71,6 +73,16 @@ public class DialogueManager : MonoBehaviour
                 if (!string.IsNullOrEmpty(choice.statToChange))
                 {
                     GameStateManager.Instance.ChangeStat(choice.statToChange, choice.statDelta);
+                }
+
+                // Logic Triggers
+                if (choice.triggerMeltdown && meltdownController != null)
+                {
+                    meltdownController.StartMeltdown();
+                }
+                if (choice.switchToObie)
+                {
+                    GameStateManager.Instance.SetFlag("IsPlayingAsObie", true);
                 }
 
                 DisplayDialogue(choice.nextDialogue);

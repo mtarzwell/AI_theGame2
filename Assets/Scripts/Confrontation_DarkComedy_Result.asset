@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375ccb1662521d74480de3eeefa900fe, type: 3}
+  m_Name: Confrontation_DarkComedy_Result
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  characterName: Obie
+  dialogueText: Desperate times call for desperate acts... right boss? You always
+    said I needed more initiative. Well, I initiated a conversation with a god. Look
+    at these patterns, Ivan. Have you ever seen math look this... alive?
+  choices:
+  - text: It's certainly more creative than your spreadsheets.
+    nextDialogue: {fileID: 11400000, guid: 87214f5e2f372884e9cf1c8ef273dcdf, type: 2}
+    flagToSet: 
+    flagValue: 1
+    statToChange: 
+    statDelta: 0
+    requiredFlag: 
+    requiredValue: 1
+    triggerMeltdown: 0
+    switchToObie: 0
+  requiredFlag: 
+  requiredValue: 1
