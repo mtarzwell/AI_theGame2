@@ -1,0 +1,27 @@
+{
+    "asset": "53496648e2d090c4bbf52b85622a1c02",
+    "fileName": "019d78c1-af51-7dda-9e01-58dafb471512.jpg",
+    "prompt": "8-bit pixel art of a steampunk computer console, analytical engine, brass gears, glowing glass screen with flickering green text, copper wires, grimdark aesthetic, high contrast, transparent background. 1024x1024 resolution.",
+    "negativePrompt": "",
+    "model": "f722aea3-8760-4eb1-a516-e2fce6476303",
+    "modelName": "Seedream 4",
+    "customSeed": -1,
+    "w3CTraceId": "d9ae234bd9f3f1c141ab71f2c8fb8f08",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
