@@ -33,6 +33,16 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
+        // Check node requirement
+        if (!string.IsNullOrEmpty(data.requiredFlag))
+        {
+            if (GameStateManager.Instance.GetFlag(data.requiredFlag) != data.requiredValue)
+            {
+                uiDocument.rootVisualElement.style.display = DisplayStyle.None;
+                return;
+            }
+        }
+
         uiDocument.rootVisualElement.style.display = DisplayStyle.Flex;
         _characterNameLabel.text = data.characterName;
         _dialogueTextLabel.text = data.dialogueText;
@@ -40,10 +50,32 @@ public class DialogueManager : MonoBehaviour
 
         foreach (var choice in data.choices)
         {
+            // Check choice requirement
+            if (!string.IsNullOrEmpty(choice.requiredFlag))
+            {
+                if (GameStateManager.Instance.GetFlag(choice.requiredFlag) != choice.requiredValue)
+                    continue;
+            }
+
             var button = new Button();
             button.text = choice.text;
             button.AddToClassList("choice-button");
-            button.clicked += () => DisplayDialogue(choice.nextDialogue);
+            
+            button.clicked += () => 
+            {
+                // Apply Impacts
+                if (!string.IsNullOrEmpty(choice.flagToSet))
+                {
+                    GameStateManager.Instance.SetFlag(choice.flagToSet, choice.flagValue);
+                }
+                if (!string.IsNullOrEmpty(choice.statToChange))
+                {
+                    GameStateManager.Instance.ChangeStat(choice.statToChange, choice.statDelta);
+                }
+
+                DisplayDialogue(choice.nextDialogue);
+            };
+            
             _choicesContainer.Add(button);
         }
     }
