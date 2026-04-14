@@ -371,6 +371,12 @@
       "conversation_id": "c6ce4ff1-cd6e-4708-ab9b-a54bfd3a188e",
       "content": "Hi there - do you remember our previous conversation session at all??",
       "snapshot_message_type": 0
+    },
+    {
+      "message_id": "6cf60cf8-c590-474b-aa8b-b1dd4a63f2ab",
+      "conversation_id": "c6ce4ff1-cd6e-4708-ab9b-a54bfd3a188e",
+      "content": "I don't have a persistent memory of our previous sessions, as I start each new conversation with a fresh context. However, I have access to your current project details for **\"AI_theGame2\"** (running Unity 6000.3.12f1 with URP).\n\nI can see that we are currently working with the `TitleScreen.unity` scene and that the project is set up for both the New Input System and the Legacy Input Manager. \n\nIf there was something specific we were working on—like a script, a UI layout, or a game mechanic—just let me know, and I can dive into the files to pick up where we left off!",
+      "snapshot_message_type": 1
     }
   ]
 }
