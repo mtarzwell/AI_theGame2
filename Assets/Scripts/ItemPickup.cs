@@ -11,19 +11,14 @@ public class ItemPickup : MonoBehaviour, IInteractable
     public void Interact()
     {
         Debug.Log("Interacting with " + itemName);
-        if (dialogueManager != null && pickupDialogue != null)
-        {
-            dialogueManager.DisplayDialogue(pickupDialogue);
-        }
 
-        if (!string.IsNullOrEmpty(flagToSet))
-        {
+        if (!string.IsNullOrEmpty(flagToSet) && GameStateManager.Instance != null)
             GameStateManager.Instance.SetFlag(flagToSet, true);
-        }
+
+        if (dialogueManager != null && pickupDialogue != null)
+            dialogueManager.DisplayDialogue(pickupDialogue);
 
         if (destroyOnPickup)
-        {
             gameObject.SetActive(false);
-        }
     }
 }
