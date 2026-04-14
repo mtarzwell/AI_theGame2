@@ -1,15 +1,17 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "New Dialogue", menuName = "HorrorGame/Dialogue")]
+[CreateAssetMenu(fileName = "New Dialogue", menuName = "Framework/Dialogue")]
 public class DialogueData : ScriptableObject
 {
     public string characterName;
+    public Sprite characterPortrait;
+    public AudioClip voiceBlip;
     [TextArea(3, 10)]
     public string dialogueText;
     public List<Choice> choices;
     
-    // Optional: Only show this node if a flag is met
+    // Node-level requirement
     public string requiredFlag;
     public bool requiredValue = true;
 }
@@ -20,19 +22,17 @@ public class Choice
     public string text;
     public DialogueData nextDialogue;
     
-    // Impact
+    // Impact: Persistent State
     public string flagToSet;
     public bool flagValue = true;
     
     public string statToChange;
     public int statDelta = 0;
 
-    // Requirement
+    // Requirement: Persistent State
     public string requiredFlag;
     public bool requiredValue = true;
 
-    // Narrative Logic
-    public bool triggerMeltdown;
-    public bool switchToObie;
-    public string triggerEnding; // "Freed" or "Caged"
+    // Narrative Logic: Transient Events (Replaces hardcoded booleans)
+    public List<string> eventTags;
 }

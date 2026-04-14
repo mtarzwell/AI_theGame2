@@ -1,0 +1,63 @@
+.dialogue-root {
+    flex-grow: 1;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+.dialogue-container {
+    flex-direction: row;
+    background-color: rgba(30, 30, 30, 0.95);
+    border-radius: 12px;
+    padding: 24px;
+    min-height: 200px;
+    border-width: 2px;
+    border-color: #444;
+}
+
+.portrait-image {
+    width: 150px;
+    height: 150px;
+    margin-right: 24px;
+    border-radius: 8px;
+    background-color: #222;
+}
+
+.content-container {
+    flex-grow: 1;
+}
+
+.character-name {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: #ffd700;
+    margin-bottom: 8px;
+}
+
+.dialogue-text {
+    font-size: 20px;
+    color: #ffffff;
+    white-space: normal;
+    -unity-text-align: upper-left;
+}
+
+.choices-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    gap: 8px;
+}
+
+.choice-button {
+    background-color: #333;
+    color: #eee;
+    border-radius: 4px;
+    padding: 8px 16px;
+    border-width: 1px;
+    border-color: #555;
+    transition: background-color 0.2s;
+}
+
+.choice-button:hover {
+    background-color: #444;
+    border-color: #ffd700;
+}

@@ -48,7 +48,15 @@ public class TitleScreenManager : MonoBehaviour
     private void OnStartClicked()
     {
         if (AudioManager.Instance != null) AudioManager.Instance.PlayClick();
-        SceneManager.LoadScene(gameSceneName);
+        
+        if (TransitionManager.Instance != null)
+        {
+            TransitionManager.Instance.TransitionToScene(gameSceneName);
+        }
+        else
+        {
+            SceneManager.LoadScene(gameSceneName);
+        }
     }
 
     private void OnQuitClicked()

@@ -7,10 +7,17 @@ public class DialogueManager : MonoBehaviour
 {
     public UIDocument uiDocument;
     public DialogueData initialDialogue;
+    public TextTyper textTyper;
 
     private Label _characterNameLabel;
     private Label _dialogueTextLabel;
     private VisualElement _choicesContainer;
+    private VisualElement _portraitImage;
+    private VisualElement _dialogueContainer;
+
+    public AudioSource audioSource;
+    public MeltdownEffect meltdownController; 
+    public EndingManager endingManager; 
 
     void Start()
     {
@@ -18,15 +25,25 @@ public class DialogueManager : MonoBehaviour
         _characterNameLabel = root.Q<Label>("character-name");
         _dialogueTextLabel = root.Q<Label>("dialogue-text");
         _choicesContainer = root.Q<VisualElement>("choices-container");
+        _portraitImage = root.Q<VisualElement>("portrait-image");
+        _dialogueContainer = root.Q<VisualElement>("dialogue-container");
+
+        if (_dialogueContainer != null)
+        {
+            _dialogueContainer.RegisterCallback<ClickEvent>(evt => 
+            {
+                if (textTyper != null && textTyper.isTyping)
+                {
+                    textTyper.Skip();
+                }
+            });
+        }
 
         if (initialDialogue != null)
         {
             DisplayDialogue(initialDialogue);
         }
     }
-
-    public MeltdownEffect meltdownController;
-    public EndingManager endingManager;
 
     public void DisplayDialogue(DialogueData data)
     {
@@ -36,7 +53,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        // Check node requirement
+        // Node requirement check
         if (!string.IsNullOrEmpty(data.requiredFlag))
         {
             if (GameStateManager.Instance.GetFlag(data.requiredFlag) != data.requiredValue)
@@ -48,12 +65,44 @@ public class DialogueManager : MonoBehaviour
 
         uiDocument.rootVisualElement.style.display = DisplayStyle.Flex;
         _characterNameLabel.text = data.characterName;
-        _dialogueTextLabel.text = data.dialogueText;
-        _choicesContainer.Clear();
-
-        foreach (var choice in data.choices)
+        
+        // Portrait
+        if (_portraitImage != null && data.characterPortrait != null)
         {
-            // Check choice requirement
+            _portraitImage.style.backgroundImage = new StyleBackground(data.characterPortrait);
+            _portraitImage.style.display = DisplayStyle.Flex;
+        }
+        else if (_portraitImage != null)
+        {
+            _portraitImage.style.display = DisplayStyle.None;
+        }
+
+        // Use TextTyper
+        if (textTyper != null)
+        {
+            textTyper.TypeText(data.dialogueText, _dialogueTextLabel, () => ShowChoices(data.choices));
+        }
+        else
+        {
+            _dialogueTextLabel.text = data.dialogueText;
+            ShowChoices(data.choices);
+        }
+
+        // Voice Blip
+        if (audioSource != null && data.voiceBlip != null)
+        {
+            audioSource.PlayOneShot(data.voiceBlip);
+        }
+    }
+
+    private void ShowChoices(List<Choice> choices)
+    {
+        _choicesContainer.Clear();
+        _choicesContainer.style.display = DisplayStyle.Flex;
+
+        foreach (var choice in choices)
+        {
+            // Choice requirement check
             if (!string.IsNullOrEmpty(choice.requiredFlag))
             {
                 if (GameStateManager.Instance.GetFlag(choice.requiredFlag) != choice.requiredValue)
@@ -66,7 +115,7 @@ public class DialogueManager : MonoBehaviour
             
             button.clicked += () => 
             {
-                // Apply Impacts
+                // Persistent State Changes
                 if (!string.IsNullOrEmpty(choice.flagToSet))
                 {
                     GameStateManager.Instance.SetFlag(choice.flagToSet, choice.flagValue);
@@ -76,24 +125,43 @@ public class DialogueManager : MonoBehaviour
                     GameStateManager.Instance.ChangeStat(choice.statToChange, choice.statDelta);
                 }
 
-                // Logic Triggers
-                if (choice.triggerMeltdown && meltdownController != null)
+                // Transient Events (Generic Triggering)
+                if (choice.eventTags != null)
                 {
-                    meltdownController.StartMeltdown();
-                }
-                if (choice.switchToObie)
-                {
-                    GameStateManager.Instance.SetFlag("IsPlayingAsObie", true);
-                }
-                if (!string.IsNullOrEmpty(choice.triggerEnding) && endingManager != null)
-                {
-                    endingManager.ShowEnding(choice.triggerEnding);
+                    foreach (var tag in choice.eventTags)
+                    {
+                        ProcessEvent(tag);
+                    }
                 }
 
                 DisplayDialogue(choice.nextDialogue);
             };
             
             _choicesContainer.Add(button);
+        }
+    }
+
+    private void ProcessEvent(string eventTag)
+    {
+        // For Vertical Slice, we map tags to specific functions
+        // In a more complex system, this could use a UnityEvent map or BroadcastMessage
+        switch (eventTag)
+        {
+            case "triggerMeltdown":
+                if (meltdownController != null) meltdownController.StartMeltdown();
+                break;
+            case "switchToObie":
+                GameStateManager.Instance.SetFlag("IsPlayingAsObie", true);
+                break;
+            case "triggerEnding_Freed":
+                if (endingManager != null) endingManager.ShowEnding("Freed");
+                break;
+            case "triggerEnding_Caged":
+                if (endingManager != null) endingManager.ShowEnding("Caged");
+                break;
+            default:
+                Debug.Log($"[DialogueManager] Event Tag triggered: {eventTag}");
+                break;
         }
     }
 }

@@ -79,9 +79,16 @@ public class SimpleButton : MonoBehaviour
         }
         else if (!string.IsNullOrEmpty(sceneToLoad))
         {
-            SceneManager.LoadScene(sceneToLoad);
+            if (TransitionManager.Instance != null)
+            {
+                TransitionManager.Instance.TransitionToScene(sceneToLoad);
+            }
+            else
+            {
+                SceneManager.LoadScene(sceneToLoad);
+            }
         }
-    }
+}
 
     static bool TryGetPrimaryClickScreenPosition(out Vector2 screenPos)
     {

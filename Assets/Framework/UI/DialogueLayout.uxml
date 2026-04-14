@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project:/Assets/Framework/UI/DialogueStyle.uss" />
+    <ui:VisualElement name="root" class="dialogue-root">
+        <ui:VisualElement name="dialogue-container" class="dialogue-container">
+            <ui:VisualElement name="portrait-image" class="portrait-image" />
+            <ui:VisualElement name="content-container" class="content-container">
+                <ui:Label name="character-name" class="character-name" text="Character Name" />
+                <ui:Label name="dialogue-text" class="dialogue-text" text="Dialogue text goes here..." />
+                <ui:VisualElement name="choices-container" class="choices-container" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
