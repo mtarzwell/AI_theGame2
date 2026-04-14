@@ -377,6 +377,12 @@
       "conversation_id": "c6ce4ff1-cd6e-4708-ab9b-a54bfd3a188e",
       "content": "I don't have a persistent memory of our previous sessions, as I start each new conversation with a fresh context. However, I have access to your current project details for **\"AI_theGame2\"** (running Unity 6000.3.12f1 with URP).\n\nI can see that we are currently working with the `TitleScreen.unity` scene and that the project is set up for both the New Input System and the Legacy Input Manager. \n\nIf there was something specific we were working on—like a script, a UI layout, or a game mechanic—just let me know, and I can dive into the files to pick up where we left off!",
       "snapshot_message_type": 1
+    },
+    {
+      "message_id": "INT_2",
+      "conversation_id": "c6ce4ff1-cd6e-4708-ab9b-a54bfd3a188e",
+      "content": "Actually, can you create a Vertical Slice plan for this project? Please focus on the key aspects like title screen transitions, and the dialog decision tree. I want the decision tree to be the focus of the plan. Also, I would like to use this plan in a different Unity 2D template, so keep reusability in mind. Thanks! Go for it!",
+      "snapshot_message_type": 0
     }
   ]
 }
